@@ -1,5 +1,6 @@
 # ✈️ Indian Airline Ticket Price Analysis (EDA Project)
 ## 📌 Project Overview
+------
 This project performs Exploratory Data Analysis (EDA) on a dataset of 10,683 Indian domestic flights from 2019. The objective is to understand how different factors such as airline type, number of stops, travel duration, journey date, and additional services influence airline ticket prices.
 
 Through data cleaning, visualization, and analysis, the project uncovers important pricing patterns and travel trends in the Indian aviation market.
