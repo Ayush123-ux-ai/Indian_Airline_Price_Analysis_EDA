@@ -1,9 +1,10 @@
 # ✈️ Indian Airline Ticket Price Analysis (EDA Project)
+---------------
 ## 📌 Project Overview
-------
 This project performs Exploratory Data Analysis (EDA) on a dataset of 10,683 Indian domestic flights from 2019. The objective is to understand how different factors such as airline type, number of stops, travel duration, journey date, and additional services influence airline ticket prices.
 
 Through data cleaning, visualization, and analysis, the project uncovers important pricing patterns and travel trends in the Indian aviation market.
+---------------
 
 ## 🎯 Objectives
 * Clean and preprocess the airline dataset for accurate analysis.
@@ -13,6 +14,7 @@ Through data cleaning, visualization, and analysis, the project uncovers importa
 * Understand travel patterns based on source and destination cities.
 * Study how flight duration influences ticket prices.
 * Generate business insights from the data.
+----------------
 
 ## 📊 Dataset Information
 * Total Records: 10,683 flights
@@ -32,6 +34,7 @@ Through data cleaning, visualization, and analysis, the project uncovers importa
 * Total_Stops
 * Additional_Info
 * Price
+---------------
 
 ## ⚙️ Project Workflow
 ### Data Loading
@@ -51,6 +54,7 @@ Through data cleaning, visualization, and analysis, the project uncovers importa
 * Compared airline pricing strategies
 ###  Data Visualization
 * Created visual insights using Matplotlib and Seaborn
+---------------
   
 ## 📈 Key Business Questions
 * Which airline has the highest ticket prices?
@@ -60,6 +64,7 @@ Through data cleaning, visualization, and analysis, the project uncovers importa
 * How does flight duration impact pricing?
 * Which cities have the highest average airfare?
 * Do additional services affect ticket price?
+------------------
 
 ## 🛠️ Technologies Used
 * Python
@@ -67,6 +72,7 @@ Through data cleaning, visualization, and analysis, the project uncovers importa
 * Matplotlib & Seaborn – Data Visualization
 * NumPy – Numerical Computation
 * Jupyter Notebook
+------------------
 
 
 ## 🔍 Key Insights
