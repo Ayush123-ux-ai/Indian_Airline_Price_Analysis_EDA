@@ -6,52 +6,80 @@ Through data cleaning, visualization, and analysis, the project uncovers importa
 
 ## 🎯 Objectives
 * Clean and preprocess the airline dataset for accurate analysis.
-Explore how airline type affects ticket prices.
-Analyze the impact of total stops on flight prices.
-Identify the most expensive and cheapest flights.
-Understand travel patterns based on source and destination cities.
-Study how flight duration influences ticket prices.
-Generate business insights from the data.
+* Explore how airline type affects ticket prices.
+* Analyze the impact of total stops on flight prices.
+* Identify the most expensive and cheapest flights.
+* Understand travel patterns based on source and destination cities.
+* Study how flight duration influences ticket prices.
+* Generate business insights from the data.
 
-## Dataset Information
-Total Records: 10,683 flights
+## 📊 Dataset Information
+* Total Records: 10,683 flights
+* Year: 2019
+* Region: Domestic flights within India
+* Format: .xlsx
+* File Used:Data_Train_xlsx
+## Key Features (Columns)
+* Airline
+* Date_of_Journey
+* Source
+* Destination
+* Route
+* Dep_Time
+* Arrival_Time
+* Duration
+* Total_Stops
+* Additional_Info
+* Price
 
-Year: 2019
+## ⚙️ Project Workflow
+# Data Loading
+* Imported dataset using Pandas
+# Data Cleaning
+* Handled missing values
+* Removed irrelevant information
+* Converted date and time columns
+* Standardized categorical variables
+# Feature Engineering
+* Extracted Journey Day and Month
+* Converted Duration into numeric format
+* Created new useful variables for analysis
+# Exploratory Data Analysis (EDA)
+* Analyzed price distributions
+* Studied relationships between features
+* Compared airline pricing strategies
+# Data Visualization
+* Created visual insights using Matplotlib and Seaborn
+  
+## 📈 Key Business Questions
+* Which airline has the highest ticket prices?
+* Which airline provides the cheapest flights?
+* How does the number of stops affect ticket prices?
+* Which routes are most expensive?
+* How does flight duration impact pricing?
+* Which cities have the highest average airfare?
+* Do additional services affect ticket price?
 
-Region: Domestic flights within India
+## 🛠️ Technologies Used
+* Python
+* Pandas – Data Cleaning & Manipulation
+* Matplotlib & Seaborn – Data Visualization
+* NumPy – Numerical Computation
+* Jupyter Notebook
 
-Format: .xlsx
+## 📊 Visualizations
+The project includes several visual analyses, such as:
+* Price distribution by airline
+* Price comparison by source city
+* Impact of total stops on pricing
+* Flight frequency by month
+* Duration vs Price relationship
+* Cheapest vs most expensive routes
 
-File Used:Data_Train_xlsx
-
-Key Columns: Airline, Date of Journey, Source, Destination, Route, Duration, Total Stops, Additional Info, Price
-
-## Key Insights
-The analysis reveals several important trends in airline ticket pricing. One-stop flights emerged as the most common option, suggesting that airlines optimize routes around shorter or single-stop journeys due to high demand. Premium carriers such as Jet Airways Business consistently offer the highest-priced tickets, while budget airlines like  SpiceJet dominate the lower price segments. The study also highlights that ticket prices vary significantly based on journey timing, with peak-hour flights generally more expensive. Although flights with more stoppages usually have longer travel durations, these routes are not always cheaper—indicating that pricing also depends on demand and operational decisions. Together, these insights help illustrate how airline type, route structure, duration, and timing collectively influence airfare pricing.
-
-## Technologies Used
-Python
-
-Pandas – Data Cleaning & Manipulation
-
-Matplotlib & Seaborn – Data Visualization
-
-NumPy – Numerical Computation
-
-Jupyter Notebook
-
-## Visualizations
-Some of the key plots and analyses include:
-
-Price distribution by airline and source city
-
-Cheapest and most expensive routes
-
-Impact of total stops on pricing
-
-Flight frequency by day/month
-Duration vs. Price relationship
-
-## Conclusion
-The analysis reveals interesting trends in the Indian aviation market, highlighting how flight duration, stoppages, and timing influence ticket prices.
-These insights can aid travelers, airlines, and analysts in understanding the dynamics of flight pricing and route selection.
+## 🔍 Key Insights
+* One-stop flights are the most common travel option.
+* Jet Airways Business flights are among the most expensive.
+* Budget airlines like SpiceJet and IndiGo dominate lower price segments.
+* Flight prices vary significantly depending on journey timing and airline type.
+* Flights with more stops generally have longer travel durations.
+* Interestingly, some non-stop flights are among the cheapest, challenging the common assumption that direct flights are always expensive.
