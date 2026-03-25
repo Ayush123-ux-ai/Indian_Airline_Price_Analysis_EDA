@@ -1,4 +1,4 @@
-# ✈️ Indian Airline Ticket Price Analysis (EDA Project)
+# ✈️ Indian Airline Ticket Price Analysis EDA Project
 
 ---------------
 ## 📌 Project Overview
