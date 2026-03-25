@@ -4,6 +4,7 @@
 This project performs Exploratory Data Analysis (EDA) on a dataset of 10,683 Indian domestic flights from 2019. The objective is to understand how different factors such as airline type, number of stops, travel duration, journey date, and additional services influence airline ticket prices.
 
 Through data cleaning, visualization, and analysis, the project uncovers important pricing patterns and travel trends in the Indian aviation market.
+
 ---------------
 
 ## 🎯 Objectives
@@ -17,11 +18,11 @@ Through data cleaning, visualization, and analysis, the project uncovers importa
 ----------------
 
 ## 📊 Dataset Information
-* Total Records: 10,683 flights
-* Year: 2019
-* Region: Domestic flights within India
-* Format: .xlsx
-* File Used:Data_Train_xlsx
+* **Total Records**: 10,683 flights
+* **Year**: 2019
+* **Region**: Domestic flights within India
+* **Format**: .xlsx
+* **File Used**:Data_Train_xlsx
 ## Key Features (Columns)
 * Airline
 * Date_of_Journey
@@ -67,11 +68,11 @@ Through data cleaning, visualization, and analysis, the project uncovers importa
 ------------------
 
 ## 🛠️ Technologies Used
-* Python
-* Pandas – Data Cleaning & Manipulation
-* Matplotlib & Seaborn – Data Visualization
-* NumPy – Numerical Computation
-* Jupyter Notebook
+* **Python**
+* **Pandas** : Data Cleaning & Manipulation
+* **Matplotlib & Seaborn** : Data Visualization
+* **NumPy** : Numerical Computation
+* **Jupyter Notebook**
 ------------------
 
 
