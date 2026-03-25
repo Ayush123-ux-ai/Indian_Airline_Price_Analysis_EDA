@@ -21,8 +21,8 @@ Through data cleaning, visualization, and analysis, the project uncovers importa
 * **Total Records**: 10,683 flights
 * **Year**: 2019
 * **Region**: Domestic flights within India
-* **Format**: '.xlsx'
-* **File Used**:'Data_Train(1).xlsx'
+* **Format**: `.xlsx`
+* **File Used**:`Data_Train(1).xlsx`
 ## Key Features (Columns)
 * Airline
 * Date_of_Journey
