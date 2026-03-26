@@ -1,14 +1,14 @@
-# ✈️ Indian Airline Ticket Price Analysis EDA 
+#  Indian Airline Ticket Price Analysis EDA 
 
 ---------------
-## 📌 Project Overview
+##  Project Overview
 This project performs Exploratory Data Analysis (EDA) on a dataset of 10,683 Indian domestic flights from 2019. The objective is to understand how different factors such as airline type, number of stops, travel duration, journey date, and additional services influence airline ticket prices.
 
 Through data cleaning, visualization, and analysis, the project uncovers important pricing patterns and travel trends in the Indian aviation market.
 
 ---------------
 
-## 🎯 Objectives
+##  Objectives
 * Clean and preprocess the airline dataset for accurate analysis.
 * Explore how airline type affects ticket prices.
 * Analyze the impact of total stops on flight prices.
@@ -18,7 +18,7 @@ Through data cleaning, visualization, and analysis, the project uncovers importa
 * Generate business insights from the data.
 ----------------
 
-## 📊 Dataset Information
+## Dataset Information
 * **Total Records**: 10,683 flights
 * **Year**: 2019
 * **Region**: Domestic flights within India
@@ -58,7 +58,7 @@ Through data cleaning, visualization, and analysis, the project uncovers importa
 * Created visual insights using Matplotlib and Seaborn
 ---------------
   
-## 📈 Key Business Questions
+## Key Business Questions
 * Which airline has the highest ticket prices?
 * Which airline provides the cheapest flights?
 * How does the number of stops affect ticket prices?
@@ -68,7 +68,7 @@ Through data cleaning, visualization, and analysis, the project uncovers importa
 * Do additional services affect ticket price?
 ------------------
 
-## 🛠️ Technologies Used
+## Technologies Used
 * **Python**
 * **Pandas** : Data Cleaning & Manipulation
 * **Matplotlib & Seaborn** : Data Visualization
@@ -77,7 +77,7 @@ Through data cleaning, visualization, and analysis, the project uncovers importa
 ------------------
 
 
-## 🔍 Key Insights
+## Key Insights
 * One-stop flights are the most common travel option.
 * Jet Airways Business flights are among the most expensive.
 * Budget airlines like SpiceJet and IndiGo dominate lower price segments.
